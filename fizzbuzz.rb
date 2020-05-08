@@ -1,17 +1,5 @@
-def fizzbuzz(int)
-  if int % 3 == 0 # if the number int is divisible by 3
-    "Fizz" # Go fizz
-  end
-end
-
-def fizzbuzz(int)
-  if int % 5 == 0
-    "Buzz"
-  end
-end
-
-def fizzbuzz(int)
-  if int % 15 == 0
-    "FizzBuzz"
-  end
+def fizzbuzz(number)
+  return 'FizzBuzz' if is_divisible_by_fifteen?(number)
+  return 'Fizz' if is_divisible_by_three?(number)
+  return 'Buzz' if is_divisible_by_five?(number)
 end

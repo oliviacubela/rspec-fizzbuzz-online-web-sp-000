@@ -3,5 +3,3 @@ def fizzbuzz(3)
     "Fizz" # Go fizz
   end
 end
-
-

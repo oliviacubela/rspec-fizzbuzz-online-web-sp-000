@@ -1,10 +1,10 @@
-def Fizz(fizz_3)
-  if fizz_3 % 3 == 0 # if the number int is divisible by 3
+def fizzbuzz(int)
+  if int % 3 == 0 # if the number int is divisible by 3
     "Fizz" # Go fizz
   end
 end
 
-def Buzz(int)
+def fizzbuzz(int)
   if int % 5 == 0
     "Buzz"
   end

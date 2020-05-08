@@ -3,3 +3,9 @@ def fizzbuzz(int)
     "Fizz" # Go fizz
   end
 end
+
+def fizzbuzz(int)
+  if int % 5 == 0
+    "Buzz"
+  end
+end
